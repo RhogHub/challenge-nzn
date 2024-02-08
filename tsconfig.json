@@ -107,5 +107,6 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "src/**/*.ts"]
+    "src/**/*.ts"
+    , "src/modules/search-nums/domain/value-object", "src/modules/search-nums/usecase/search-ascending-order-nums/search-ascending-order-nums.dto.ts"  ],
 }

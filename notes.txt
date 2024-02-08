@@ -10,11 +10,13 @@ ok -commitlint (ok -husky)
 
 
 //ToDo:
+ok-testar value-object Number
 ok-criar value-object Number
-    -testar value-object Number
-    -validar Number
+ok-validar Number
+ok-escrever testes unitários usecase search
+    -testar usecase search
     -usecase search 
-
+    
 
 //Sh. para docker:
 npm install
