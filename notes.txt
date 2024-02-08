@@ -1,0 +1,20 @@
+//Entregar até 19/02.
+
+//install checklist:
+ok -typescript
+ok -tsc 
+ok -tslint
+ok -jest
+ok -@swc
+ok -commitlint (ok -husky)
+
+
+//ToDo:
+ok-criar value-object Number
+    -testar value-object Number
+    -validar Number
+    -usecase search 
+
+
+//Sh. para docker:
+npm install
