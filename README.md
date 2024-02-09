@@ -1,6 +1,3 @@
-# challenge-nzn
-Challenge of NZN (with node.js) 
-=======
 # Challenge NZN
 
 ## Descrição
