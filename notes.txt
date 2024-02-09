@@ -7,7 +7,10 @@ ok -tslint
 ok -jest
 ok -@swc
 ok -commitlint (ok -husky)
-
+ok -express @types/express dotenv
+ok -nodemon
+ok -supertest
+ok -@types/supertest
 
 //ToDo:
 ok-testar value-object Number
@@ -18,10 +21,9 @@ ok-testar usecase search
 ok-usecase search (Big O -> O(n log n))
 //Alguma interface para usecase - ToDo:
 ok- Instalar Dependencias para API
-   -Test E2E
-   -Criar endpoint API    
+ok-criar test E2E
+ok-Criar endpoint API    
    -Testar server   
     
-
 //Sh. para docker:
 npm install
