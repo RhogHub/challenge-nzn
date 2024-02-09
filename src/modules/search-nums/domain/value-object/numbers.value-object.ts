@@ -36,13 +36,7 @@ export default class Numbers implements ValueObject {
                     throw new Error("The array elements must be integers");
                 }
             }            
-        }
-        // if (this._nums.length === 1) {
-        //     if (this._nums[0] === this._target) {
-        //         return 0;
-        //     } 
-        // }
+        }        
     }
-
 
 }

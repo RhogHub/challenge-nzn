@@ -20,7 +20,7 @@ Este é um projeto que implementa uma API para buscar um alvo (target) em um arr
 6. A aplicação estará agora em execução e pronta para receber solicitações.
 
 ### Rodando Testes
-- Este projeto inclui testes automatizados para garantir o funcionamento correto da API.
+- Este projeto inclui testes automatizados.
 - Para executar os testes, basta executar o seguinte comando:
     ```bash
     npm test
@@ -29,12 +29,12 @@ Este é um projeto que implementa uma API para buscar um alvo (target) em um arr
 ### Utilizando a API
 - A API oferece um único endpoint `search`, acessível via método HTTP POST.
 - O endpoint espera dois parâmetros:
-    - `target`: o valor alvo a ser pesquisado no array.
+    - `target`: o valor inteiro, alvo a ser pesquisado no array.
     - `nums`: um array de inteiros ordenado em ordem crescente onde o alvo será buscado.
 - O endpoint retornará o índice do alvo no array se ele for encontrado. Caso contrário, retornará -1.
 - Exemplo de solicitação:
     ```http
-    POST /search
+    POST http://localhost:3000/search/ HTTP/1.1
     Content-Type: application/json
 
     {
