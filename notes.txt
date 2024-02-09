@@ -14,8 +14,14 @@ ok-testar value-object Number
 ok-criar value-object Number
 ok-validar Number
 ok-escrever testes unitários usecase search
-    -testar usecase search
-    -usecase search 
+ok-testar usecase search
+ok-usecase search (Big O -> O(n log n))
+//Alguma interface para usecase - ToDo:
+    - Instalar Dependencias para API
+    - Criar endpoint API
+    - Test E2E
+    - Testar server
+    
     
 
 //Sh. para docker:

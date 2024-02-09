@@ -1,4 +1,5 @@
 import Numbers from "../../domain/value-object/numbers.value-object";
+import SearchAscendingOrderNumsUsecase from "./search-ascending-order-nums.usecase";
 
 describe("Search usecase unit test", () => {
     it("should return the index of target when it's present in array", async() => {
@@ -9,10 +10,10 @@ describe("Search usecase unit test", () => {
             target,
             nums
         });
-        //const usecase = new SearchAscendingOrderNumsUsecase();
-        //const result = await usecase.execute(input);
+        const usecase = new SearchAscendingOrderNumsUsecase();
+        const result = await usecase.execute(input);
         
-        //expect(result.index).toBe(3);
+        expect(result.index).toBe(3);
     });
 
     it("should return -1 when the target isen't present in array", async () => {
@@ -22,10 +23,10 @@ describe("Search usecase unit test", () => {
             nums,
             target,
         })
-        //const usecase = new SearchAscendingOrderNumsUsecase();
-        //const result = await usecase.execute(input);
+        const usecase = new SearchAscendingOrderNumsUsecase();
+        const result = await usecase.execute(input);
         
-        //expect(result.index).toBe(-1);
+        expect(result.index).toBe(-1);
     });
 
     it("should return the index of target when array has only one element that is the target", async () => {
@@ -36,10 +37,10 @@ describe("Search usecase unit test", () => {
             nums,
             target,
         });
-        //const usecase = new SearchAscendingOrderNumsUsecase();
-        //const result = await usecase.execute(input);
+        const usecase = new SearchAscendingOrderNumsUsecase();
+        const result = await usecase.execute(input);
         
-        //expect(result.index).toBe(0);
+        expect(result.index).toBe(0);
     });
 
 });
