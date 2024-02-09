@@ -24,7 +24,7 @@ ok- Instalar Dependencias para API
 ok-criar test E2E
 ok-Criar endpoint API    
 ok-Testar server   
-
+ok-documentar
    -limpar código
    -release rc
 
