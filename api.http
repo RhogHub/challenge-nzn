@@ -1,0 +1,8 @@
+###
+POST http://localhost:3000/search/ HTTP/1.1
+Content-Type: application/json; charset=utf-8
+
+{
+    "nums": [-3,-1,0,1,2,3,5,8,13,21,34,55,89,144,233],
+    "target": 233
+}
