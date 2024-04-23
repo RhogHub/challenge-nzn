@@ -57,7 +57,7 @@ Este é um projeto que implementa uma API para buscar um alvo (target) em um arr
 
 ## Tecnologias Utilizadas
 - Node.js (v18.17.1)
-- Express.js (v4.18.2)
+- Express.js (v4.19.2)
 - Jest.js (v29.7.0)
 
 ## Autor
