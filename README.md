@@ -66,3 +66,4 @@ Rodrigo Godoi <rhog.dev@gmail.com>
 ---
 Este projeto foi criado como parte de um desafio na NZN.
 
+>>>>>>> release/1.0.0-rc0
