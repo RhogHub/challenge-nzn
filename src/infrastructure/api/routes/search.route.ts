@@ -16,7 +16,7 @@ searchRoute.post('/', async (req: Request, res: Response) => {
         const output = await usecase.execute(input);
         res.status(200).send(output);
     } catch (err) {
-        res.status(500).send(err);
-        console.log(err);
+        console.error(err);
+        res.status(500).send({ message: "Internal server error" });
     }
 });
